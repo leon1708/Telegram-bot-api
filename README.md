@@ -16,6 +16,6 @@ This is a simple telegram bot using api created in perl, it uses **curl** by sys
 * **show time** : returns the current date and time
 * **show date** : same as _show date_
 * **show epoch** : returns the current epoch in seconds (time of the server).
-* **show banned** : lists the banned users (currently keeps banned users during bot process running, this can be improved by using a DB for permanent data).
+* **show banned** : lists the banned users (currently keeps banned users during bot process running, this can be improved by using a DB for permanent data). This feature requires **admin privileges** and **Group Privacy** off.
 * **exec command** : returns the result of _command_ argument (return error if any typo or argument is wrong).
 * **kill bot** : Bot say "Good bye" and bot process on server stops (can be improved to allow it only from admins).
