@@ -49,7 +49,7 @@ while($scape){
             }
             if($m->{'message'}->{'text'} =~ m/^exec/){
                 my $string=$m->{'message'}->{'text'};
-                   $string=~ s/execute //g;
+                   $string=~ s/exec //g;
                 $MESSAGE="<b>Command Result:</b>\n".`$string`;
                 my $result=`echo $?`;
                 if($result == 0){
