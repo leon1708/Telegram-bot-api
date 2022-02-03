@@ -5,7 +5,7 @@ use JSON::Parse;
 ```
 ## Simple bot to interact
 
-This is a simple telegram bot using api created in perl, it uses **curl** by system calls and processes the messages section from json response to perform actions.
+This is a simple telegram bot using api written in perl, it uses **curl** by system calls and processes the messages section from json response to perform actions.
 
 * This bot supports command execution **exec**. Commands run inside the host server (usefull for admins). Supports error notification.
 * Possesses a blocking user feature in groups (ban and chat history delete). This can be improved by using a DB for permanent data). This feature requires **admin privileges** and **Group Privacy** off.
